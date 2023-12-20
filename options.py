@@ -1,0 +1,21 @@
+gpu = "0"
+random_seed = 0
+data_type = "coords"
+video_path = "lip_images/"
+train_list = f"data/{data_type}_train.txt"
+val_list = f"data/{data_type}_val.txt"
+anno_path = "GRID_alignments"
+coords_path = "lip_coordinates"
+vid_padding = 75
+txt_padding = 200
+batch_size = 40
+base_lr = 2e-5
+num_workers = 16
+max_epoch = 10000
+display = 50
+test_step = 1000
+save_prefix = f"weights/LipCoordNet_{data_type}"
+is_optimize = True
+pin_memory = True
+
+weights = "pretrain/LipCoordNet_coords_loss_0.025581153109669685_wer_0.01746208431890914_cer_0.006488426950253695.pt"
