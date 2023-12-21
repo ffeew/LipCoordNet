@@ -4,6 +4,8 @@
 
 LipCoordNet is an advanced neural network model designed for accurate lip reading by incorporating lip landmark coordinates as a supplementary input to the traditional image sequence input. This enhancement to the original LipNet architecture aims to improve the precision of sentence predictions by providing additional geometric context to the model.
 
+Demo available here: https://huggingface.co/spaces/SilentSpeak/SilentSpeak (note: it may take some time to start up)
+
 ## Features
 
 - **Dual Input System**: LipCoordNet integrates raw image sequences with corresponding lip landmark coordinates, offering a more holistic view of speech articulation.
